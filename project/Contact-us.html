@@ -33,7 +33,15 @@
                     <input type="text" name="fullName" placeholder="نام و نام خانوادگی"><br>
                     <input type="email" name="email" placeholder="ایمیل"><br>
                     <input type="text" name="text" placeholder="شماره  موبایل"><br>
-                    <input type="text1" name="description" placeholder="پیام خود را اینجا برایمان بنویسید..."><br>
+                    <select name="SelectedTitle" id="SelectedTitle" aria-invalid="false" class="Title">
+                        <option value="0" selected="selected" disabled="disabled">موضوع</option>
+                        <option value="1">پشتیبانی فنی</option>
+                        <option value="2">روابط عمومی و تبلیغات</option>
+                        <option value="3">مدیریت</option>
+                        <option value="4">پیشنهاد و انتقاد</option>
+                        <option value="5">سایر</option>
+                    </select><br><br>
+                    <textarea cols="30" rows="10" placeholder="پیام خود را اینجا برایمان بنویسید..." class="textbox"></textarea><br><br>
                     <input type="submit" name="submit" value="ارسال">
             </div>  
             <div class="sidebar">

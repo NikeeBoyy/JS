@@ -157,3 +157,27 @@ input[type=submit]{
     flex: none;
     cursor: pointer;
 }
+.Title{
+    border: 0.1px solid #dedede;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+    width: 43%;
+}
+.textbox{
+    width: 50%;
+    border: 0.1px solid #dedede;
+    box-sizing: border-box;
+    display: block;
+    height: 120px;
+    margin-top: 0.8;
+    padding: 1rem;
+    resize: none;
+    color: inherit;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    outline: none;
+}
